@@ -57,7 +57,7 @@ class Config
     * @example [['example','HIJKL\ExampleController::example_shortcode']]
     */
     public $shortcodes=[
-        ['example','HIJKL\ExampleController::example_shortcode']
+     //    ['example','HIJKL\ExampleController::example_shortcode']
     ];
     /**
     * Dashboard

@@ -12,7 +12,7 @@
             $posttype = 'moto';
             $from='';
             if ($wp->query_vars["post_type"] == $posttype || $wp->query_vars["post_format "] == $postype ) {
-                $templatefilename = is_post_type_archive($posttype)?'archive-property.php':'single-property.php';
+                $templatefilename = is_post_type_archive($posttype)?'archive-moto.php':'single-moto.php';
                 if (file_exists(TEMPLATEPATH . '/' . $templatefilename)) {
                     $return_template = TEMPLATEPATH . '/' . $templatefilename;
                 } else {

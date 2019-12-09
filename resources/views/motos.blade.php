@@ -6,7 +6,7 @@
 			{!! the_post() !!}
 			<article id="post-{!! the_ID() !!}">
 				<div class="entry-content">
-					<h1>{!! get_the_title() !!}</h1>
+					<h1>{!! get_the_title() !!} <--  Esto es de blade </h1>
 					<p>{!! the_content() !!}</p>
 				</div><!-- .entry-content -->
 			</article><!-- #post-{!! the_ID() !!} -->
